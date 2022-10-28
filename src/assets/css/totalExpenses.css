@@ -1,0 +1,23 @@
+.head-name{
+    margin: 10px 10px;
+}
+.expenses{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    width: 10rem;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: var(--purp);
+}
+.monthly{
+    width: 10rem;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: var(--green);
+}

@@ -1,0 +1,51 @@
+.editbill{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    background: var(--bg);
+    padding: 10px 0;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1000px rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+.form-editbill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 7px;
+    column-gap: 5px;
+    margin: 0 10px;
+}
+.btn-editBill{
+    outline: none;
+    grid-column: 1 / 3;
+    display: grid;
+    place-items: center;
+    height: 1.7rem;
+    border-radius: 3px;
+    color: rgb(61, 61, 61);
+    border: 1.5px solid grey;
+    background: white;
+    transition: all 0.3s ease;
+}
+.btn-editBill:hover{
+    color: black;
+    border: 1.5px solid black;
+}
+.btn-editBill:active{
+    transform: scale(95%);
+}
+.btn-hideEdit{
+    outline: none;
+    background: white;
+    display: grid;
+    place-items: center;
+    margin: 0 0 10px 10px;
+    width: 30%;
+    border-radius: 3px;
+    color: rgb(192, 47, 47);
+    border: 1.5px solid rgb(192, 47, 47);
+}
+.btn-hideEdit:hover{
+    color: red;
+    border: 1.5px solid rgb(223, 19, 19);
+}

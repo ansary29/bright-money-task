@@ -1,0 +1,23 @@
+.filter{
+    position: relative;
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+    height: 60%;
+    width: 100%;
+    row-gap: 20px;
+    background-color: var(--bg);
+    border-radius: 5px;
+}
+.form-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+.form-filter h2{
+    width: 7rem;
+}
+.inp-filterCategory{
+    font-size: 14px;
+    margin: 0 20px;
+}

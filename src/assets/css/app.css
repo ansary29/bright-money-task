@@ -1,0 +1,23 @@
+.App{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    place-items: center;
+    column-gap: 20px;
+    margin: 0 20px;
+}
+.bills{
+    overflow-y: scroll;
+}
+@media screen and (max-width: 600px) {
+    .App{
+        display: flex;
+        flex-direction: column;
+    }
+    .chart{
+        margin: 10px 0;
+    }
+    .filter{
+        margin: 10px 0;
+    }
+}

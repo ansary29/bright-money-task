@@ -1,0 +1,60 @@
+.bill{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 4fr 2fr 1fr 1fr;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin: 5px 0;
+}
+.amount{
+    display: grid;
+    place-items: center;
+    color: white;
+    background-color: var(--purp);
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    margin: 3px;
+}
+.cat-desc{
+    margin: 3px 5px;
+}
+.category{
+    font-size: 1rem;
+}
+.description{
+    font-size: 12px;
+}
+.date{
+    font-size: 12px;
+}
+.btn-bill{
+    border: none;
+    outline: none;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.btn-editbill{
+    background-color: var(--green);
+    margin: 0 5px;
+}
+.btn-editbill:hover{
+    background-color: rgb(0, 90, 0);
+}
+.btn-editbill:active{
+    transform: scale(90%);
+}
+.btn-deletebill{
+    background-color: var(--red);
+}
+.btn-deletebill:hover{
+    background-color: rgb(185, 0, 0);
+}
+.btn-deletebill:active{
+    transform: scale(90%);
+}
